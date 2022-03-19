@@ -1,24 +1,16 @@
-# README
+# Centralized Error Handling for Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## System dependencies
+* Ruby 2.7.2
+* Rails 6.1.5
+* Sqlite3
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Getting started
+**Inflate Database**
+```shell
+$ bundle exec rails db:setup
+```
+**Serve on Local**
+```shell
+$ bundle exec rails server
+```
